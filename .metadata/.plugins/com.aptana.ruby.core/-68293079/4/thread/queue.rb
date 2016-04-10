@@ -1,0 +1,56 @@
+class Thread::Queue < Object
+
+
+
+  def <<(arg0)
+  end
+
+  def clear
+  end
+
+  def close
+  end
+
+  def closed?
+  end
+
+  def deq(arg0, arg1, *rest)
+  end
+
+  def empty?
+  end
+
+  def enq(arg0)
+  end
+
+  def length
+  end
+
+  def marshal_dump
+  end
+
+  def num_waiting
+  end
+
+  def pop(arg0, arg1, *rest)
+  end
+
+  def push(arg0)
+  end
+
+  def shift(arg0, arg1, *rest)
+  end
+
+  def size
+  end
+
+
+  protected
+
+
+  private
+
+  def initialize
+  end
+
+end
