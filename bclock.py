@@ -159,7 +159,7 @@ while 1:
 		elif prev_h12_b_pre < 0:
 			prev_h12_b_pre += 12
 			print prev_h12_b_pre
-		elif h12_b_pre == 0:
+		elif prev_h12_b_pre == 0:
 			print h12_b_pre
 			ap_set_before = 1
 			time.wait(ser_timeout + 5)
@@ -172,4 +172,4 @@ while 1:
 		prev_h12_b = (4 - len(str(bin(int(prev_h12_b_pre))[2:]))) * "0" + str(bin(int(prev_h12_b_pre))[2:])
 		prev_m_b = (6 - len(str(bin(int(strftime("%M"))))[2:])) * "0" + str(bin(int(strftime("%M"))))[2:]
 
-	time.wait(500)
+	time.wait(250)
