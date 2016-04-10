@@ -1,6 +1,6 @@
 {
-  "name": "Binary clock with Arduino and Python",
+  "name": "Binary clock with Arduino and Ruby",
   "tagline": "binary clock with arduino mega 2560",
-  "body": "##Binary clock with your Arduino Mega 2560\r\nYeah. Does exactly what it looks like.",
+  "body": "##Binary clock with your Arduino Mega 2560\r\nYeah. Does exactly what it looks like.\r\n###REQUIRES RUBY-SERIALPORT\r\nsudo apt-get install ruby-serialport",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
