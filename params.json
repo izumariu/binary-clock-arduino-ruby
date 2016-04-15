@@ -1,6 +1,6 @@
 {
   "name": "Binary clock with Arduino and Ruby",
   "tagline": "binary clock with arduino mega 2560",
-  "body": "1. Ruby installieren.\r\n2. Erweiterung für Ruby installieren: sudo apt-get install ruby-serialport\r\n3. Arduino anschließen und den Port von ihm herausfinden: CHRISTIAN FRAGEN!\r\n4. [Ruby-Skript herunterladen](https://github.com/sesshomariu/binary-clock-arduino-ruby/blob/master/BClock/bclock.rb)\r\n5. In den Ordner mit dem Skript navigieren und EXEKUTIEREN: ruby bclock.rb -d PORT -b 9600\r\n6. Have fun!\r\n\r\nAnsonsten Christian nach meiner Jabber-Adresse fragen.\r\n\r\n##Binary clock with your Arduino Mega 2560\r\nYeah. Does exactly what it looks like.\r\n###REQUIRES RUBY-SERIALPORT\r\nsudo apt-get install ruby-serialport",
+  "body": "##Für's EBK zum Spaß haben:\r\n1. Ruby installieren.\r\n2. Erweiterung für Ruby installieren: sudo apt-get install ruby-serialport\r\n3. Arduino anschließen und den Port von ihm herausfinden: CHRISTIAN FRAGEN!\r\n4. [Ruby-Skript herunterladen.](https://github.com/sesshomariu/binary-clock-arduino-ruby/blob/master/BClock/bclock.rb)\r\n5. In den Ordner mit dem Skript navigieren und EXEKUTIEREN: ruby bclock.rb -d PORT -b 9600\r\n6. Have fun!\r\n\r\nAnsonsten Christian nach meiner Jabber-Adresse fragen.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
